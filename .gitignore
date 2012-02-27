@@ -1,0 +1,6 @@
+*~
+3doobj.exe
+obj3do.exe
+*.o
+models/*
+backup/*
