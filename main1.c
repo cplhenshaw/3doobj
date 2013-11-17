@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
     if(argc < 3)
     {
 	printf("3DO-OBJ by cplhenshaw: Converts 3DO files to OBJ files for modelling.\n\n");
-	printf("Usage: '%s manny.3do manny.obj\n\n", argv[0]);
-	printf("Also accept an optional third argument to specify texture image format in the .mtl file:\n");
+	printf("Usage: '%s original.3do coverted.obj [filetype]\n\n", argv[0]);
+	printf("The optional third argument is used to specify a texture image format in the .mtl file:\n");
 	printf("E.g.: '%s manny.3do manny.obj .jpg'\n", argv[0]);
 	exit(EXIT_FAILURE);
     }
