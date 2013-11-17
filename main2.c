@@ -14,8 +14,9 @@ int main( int argc, char *argv[] )
 {
 	if( argc != 4 )
 	{
-		printf("Expected 3 arguments, two input and one output filenames.\n");
-		printf("Usage example '%s manny.3do updated.obj manny.3do'\n", argv[0]);
+                printf("OBJ-3DO by cplhenshaw: Converts OBJ files to 3DO files.\n\n");
+                printf("Requires three arguments: Two input and one output filenames.\n");
+                printf("Usage: '%s original.3do updated.obj updated.3do'\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
 
